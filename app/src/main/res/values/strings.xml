@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">precificacao</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="titulo_precificacao">Precificação na Confeitaria</string>
+    <string name="rodape_telmiadameDeveloper">\@telmiadameDeveloper</string>
+    <string name="texto_boas_vindas01">Olá,</string>
+    <string name="texto_boas_vindas02">Bem-vindo ao aplicativo que vai revolucionar seu controle sobre seu negócio.</string>
+    <string name="texto_boas_vindas03">Aqui você terá mais controle de sua produção e lucro.</string>
+    <string name="titulo_chamada">Vamos lá!</string>
+    <string name="texto_chamada">Vamos começar cadastrando a sua primeira receita.</string>
+    <string name="texto_btn_chamada">Começar</string>
+    <string name="titulo_primeira_receita">Primeira receita</string>
+    <string name="nome">Nome</string>
+    <string name="rendimento">Rendimento</string>
+    <string name="selecionar_ingredientes">Selecionar Ingredientes</string>
+    <string name="adicionar_ingredientes">Adicionar Ingredientes</string>
+    <string name="un">Un</string>
+    <string name="salvar">Salvar</string>
+    <string name="ola_nome">Olá, Dona Benta</string>
+    <string name="nome_receita">Bolo de Aniversário</string>
+    <string name="btn_receitas">receitas</string>
+    <string name="btn_nova_receita">nova receita</string>
+    <string name="btn_novo_ingrediente">novo ingrediente</string>
+    <string name="btn_custo_fixo">custo fixo</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_activity_receitas">receitas</string>
+    <string name="titulo_receitas">Receitas</string>
+    <string name="voltar">voltar</string>
+
+
+</resources>

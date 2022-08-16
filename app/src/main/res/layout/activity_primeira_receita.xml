@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="40dp"
+        tools:context=".primeira_receita">
+
+
+        <TextView
+            android:id="@+id/titulo_primeira_receita"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="64dp"
+            android:fontFamily="@font/salsa"
+            android:text="@string/titulo_primeira_receita"
+            android:textColor="@color/preto"
+            android:textSize="32sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.184"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/edittext_nome"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="68dp"
+            android:background="@drawable/retangulo_input"
+            android:fontFamily="@font/rubik"
+            android:hint="@string/nome"
+            android:padding="10dp"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.384"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/titulo_primeira_receita" />
+
+        <EditText
+            android:id="@+id/edittext_rendimento"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/retangulo_input"
+            android:fontFamily="@font/rubik"
+            android:hint="@string/rendimento"
+            android:padding="10dp"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.391"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edittext_nome"
+            tools:ignore="MissingConstraints" />
+
+
+        <include
+            android:id="@+id/selecionar_receitas"
+            layout="@layout/botao_selecionar_ingredientes"
+            android:layout_width="164dp"
+            android:layout_height="270dp"
+            android:layout_marginStart="27dp"
+            android:layout_marginTop="50dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edittext_rendimento"
+            tools:ignore="NotSibling" />
+
+        <include
+            android:id="@+id/adicionar_receitas"
+            layout="@layout/botao_adicionar_ingrediente"
+            android:layout_width="164dp"
+            android:layout_height="270dp"
+            android:layout_marginEnd="27dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/selecionar_receitas" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="47dp"
+            android:layout_height="47dp"
+            android:background="@drawable/circulo_medidas"
+            android:fontFamily="@font/rubik"
+            android:text="@string/un"
+            android:textAllCaps="false"
+            android:textColor="@color/branco"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/edittext_rendimento"
+            app:layout_constraintEnd_toEndOf="@+id/edittext_rendimento"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/btn_comecar"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/botao_customizado_rosa"
+            android:backgroundTint="@color/branco"
+            android:fontFamily="@font/salsa"
+            android:text="@string/salvar"
+            android:textAllCaps="false"
+            android:textColor="@color/branco"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
